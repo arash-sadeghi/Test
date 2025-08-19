@@ -17,7 +17,7 @@ const handler = (_req: Request): Response => {
   // Create a new Response object.
   // The first argument is the body of the response, which is "hi".
   // The second argument is an optional object for settings like status and headers.
-  return new Response("hi", {
+  return new Response("hi loaughter", {
     status: 200, // HTTP status code for OK
     headers: {
       "content-type": "text/plain", // Inform the client that we're sending plain text
